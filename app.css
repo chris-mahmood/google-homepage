@@ -33,6 +33,11 @@ padding-top: 150px;
     color:white;
     font-weight: bold;
     background: -moz-linear-gradient(top,#4387fd,#4683ea);
+    padding: 0 12px;
+    line-height: 28px;
+    display: inline-block;
+}#signin a:visited{
+    color:white;
 }
 input[type=text]{
     padding-left: 15px;
@@ -54,7 +59,7 @@ input[type=text]:hover {
     bottom:0;
     width:100%;
     background:#f2f2f2;
-    font-size: 15px;
+    font-size: 13px;
 
 }
 #bottomnav ol{
@@ -75,6 +80,7 @@ input[type=text]:hover {
 }
 
 #bottomnav li{
+    color: rgba(0,0,0,.54);
     text-align: center;
     display:inline-block;
     background:#f2f2f2;
@@ -88,17 +94,39 @@ position: relative;
 top: 3px;
 }
 
+.button{
+    height: 36px;
+    text-align: center;
+    background-color: #f2f2f2;
+    color:#5F6368;
+    cursor: pointer;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding:0 16px;
+}
+.button:hover{
+border: 1px solid #5F6368;
+color:black;
+}
+.mogspeak{
+    font-size: 10pt;
+    text-align: center;
+
+}
 .r-link{
     float:right;
 }
+
 body{
     font-family: "Liberation Sans", Helvetica, sans-serif;
 
 }
 a:link{
     text-decoration: none;
-    color: black;
-    padding: 6px;
+    color: rgba(0,0,0,.54);
+    padding: 2px;
 }
 a:hover{
     text-decoration: underline;
